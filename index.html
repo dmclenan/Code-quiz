@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>NEW YORK GIANTS QUIZ</title>
+
+</head>
+
+<body>
+
+    </article>
+    <div class="container-fluid">
+        <div class="highscore">
+            <a href="#" id="viewHighScore">View High Scores</a>
+        </div>
+        <div id="timer">
+            <i class="far fa-clock"></i> Time: <span id="timeisleft">0</span>
+        </div>
+        <div id="timesUp" style="display: none;">Time's Up!</div>
+    </div>
+
+    <div id="selectAll">
+
+        <div id="start">
+            <h1 class="">New York Giants Quiz</h1>
+            <p class="p-5">Try to answer the followding
+                questions within the time limit.The incorrect answers will penalize your
+                time by ten seconds!</p>
+            <button type="button" id="start-quiz-button">Start Quiz</button>
+        </div>
+
+        <div id="questionDev" style="display: none;">
+            <p id="questionTitle"></p>
+            <p><button id="btn1"></button></p>
+            <p><button id="btn2"></button></p>
+            <p><button id="btn3"></button></p>
+            <p><button id="btn4"></button></p>
+            <hr id="lineBreak">
+            <p id="answerCheck" style="display: none;"></p>
+        </div>
+    </div>
+
+
+    <div id="summary" style="display: none;">
+
+        <h2>Final score <span id="finalScore"></span> !</h2>
+        <form>
+            <p>type in your initials please: <input id="initialInput" type="text">
+                <button type="submit" id="submitInitialBtn" class="btn btn-info mt-3">Submit</button>
+            </p>
+        </form>
+    </div>
+    </div>
+
+
+    <div id="highScoreSection" style="display: none;">
+        <h2>High Scores</h2>
+
+        <div id="listOfHighScores"></div>
+
+        <p>
+            <button type="submit" class="btn btn-info mt-3 mr-3" id="goBackBtn">Go Back</button>
+            <button type="submit" class="btn btn-info mt-3" id="clearHighScoreBtn">Clear High Scores</button>
+        </p>
+
+    </div>
+    </main>
+    </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
